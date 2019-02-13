@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.8.0)
+  - OpenTok (2.15.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - OpenTok
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - OpenTok
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  OpenTok: 111a5adecd33ca16e6bece1b6af7505559e0c7f0
+
+PODFILE CHECKSUM: 191fe1d5df62d65ed804b5a4d1a5954b4700cf6b
+
+COCOAPODS: 1.5.3

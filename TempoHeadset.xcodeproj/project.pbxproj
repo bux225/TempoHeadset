@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23081B1E405A8D42E40D2A0B /* Pods_TempoHeadsetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AEEDB4F29B81C9E287976DF /* Pods_TempoHeadsetTests.framework */; };
+		454F7BB00B798B7159D73F32 /* Pods_TempoHeadsetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3296BC8AC02269C8D45541A7 /* Pods_TempoHeadsetUITests.framework */; };
+		E3C34D21FA1EDD0373E861F1 /* Pods_TempoHeadset.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2956B1E1F955D603AE983922 /* Pods_TempoHeadset.framework */; };
+		E9B743D32207935800ED345D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B743D22207935800ED345D /* AppDelegate.swift */; };
+		E9B743D82207935800ED345D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B743D62207935800ED345D /* Main.storyboard */; };
+		E9B743DB2207935800ED345D /* TempoHeadset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9B743D92207935800ED345D /* TempoHeadset.xcdatamodeld */; };
+		E9B743DD2207935900ED345D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B743DC2207935900ED345D /* Assets.xcassets */; };
+		E9B743E02207935900ED345D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B743DE2207935900ED345D /* LaunchScreen.storyboard */; };
+		E9B743EB2207935900ED345D /* TempoHeadsetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B743EA2207935900ED345D /* TempoHeadsetTests.swift */; };
+		E9B743F62207935900ED345D /* TempoHeadsetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B743F52207935900ED345D /* TempoHeadsetUITests.swift */; };
+		E9B74405220793A300ED345D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B74404220793A300ED345D /* MainViewController.swift */; };
+		E9B744072207954200ED345D /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B744062207954200ED345D /* ChannelViewController.swift */; };
+		E9B7440B2207961A00ED345D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7440A2207961A00ED345D /* LoginViewController.swift */; };
+		E9CD4884220A64F9007E411E /* AlamofireController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD4883220A64F9007E411E /* AlamofireController.swift */; };
+		E9D2BC4C220A5FF7004F7688 /* OpenTokController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2BC4B220A5FF7004F7688 /* OpenTokController.swift */; };
+		E9D2BC4E220A6032004F7688 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2BC4D220A6032004F7688 /* UsersTableViewController.swift */; };
+		E9D2BC50220A613A004F7688 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2BC4F220A613A004F7688 /* SpinnerViewController.swift */; };
+		E9D2BC53220A61A5004F7688 /* OpenTokDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2BC52220A61A5004F7688 /* OpenTokDelegate.swift */; };
+		E9D2BC55220A61C4004F7688 /* ChannelViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2BC54220A61C4004F7688 /* ChannelViewControllerDelegate.swift */; };
+		E9E88CAB2211E252007AEC05 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E9E88CAA2211E251007AEC05 /* intro.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B743E72207935900ED345D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B743C72207935800ED345D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B743CE2207935800ED345D;
+			remoteInfo = TempoHeadset;
+		};
+		E9B743F22207935900ED345D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B743C72207935800ED345D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B743CE2207935800ED345D;
+			remoteInfo = TempoHeadset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AEEDB4F29B81C9E287976DF /* Pods_TempoHeadsetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadsetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1997573A2CB882DD51B71482 /* Pods-TempoHeadset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset.debug.xcconfig"; sourceTree = "<group>"; };
+		2956B1E1F955D603AE983922 /* Pods_TempoHeadset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B7EE5563554A97E70333E6 /* Pods-TempoHeadsetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetUITests/Pods-TempoHeadsetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3296BC8AC02269C8D45541A7 /* Pods_TempoHeadsetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TempoHeadsetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B0B1F46DD19AF0CED03EF8 /* Pods-TempoHeadsetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetUITests/Pods-TempoHeadsetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8975453349690FCA368BC505 /* Pods-TempoHeadset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadset.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset.release.xcconfig"; sourceTree = "<group>"; };
+		A167B2D3458A30ED78080F85 /* Pods-TempoHeadsetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetTests/Pods-TempoHeadsetTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6B38F3CF4A8336FC5855F6B /* Pods-TempoHeadsetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempoHeadsetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempoHeadsetTests/Pods-TempoHeadsetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B743CF2207935800ED345D /* TempoHeadset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoHeadset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B743D22207935800ED345D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9B743D72207935800ED345D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9B743DA2207935800ED345D /* TempoHeadset.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TempoHeadset.xcdatamodel; sourceTree = "<group>"; };
+		E9B743DC2207935900ED345D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9B743DF2207935900ED345D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9B743E12207935900ED345D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B743E62207935900ED345D /* TempoHeadsetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoHeadsetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B743EA2207935900ED345D /* TempoHeadsetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoHeadsetTests.swift; sourceTree = "<group>"; };
+		E9B743EC2207935900ED345D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B743F12207935900ED345D /* TempoHeadsetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoHeadsetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B743F52207935900ED345D /* TempoHeadsetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempoHeadsetUITests.swift; sourceTree = "<group>"; };
+		E9B743F72207935900ED345D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B74404220793A300ED345D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9B744062207954200ED345D /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		E9B7440A2207961A00ED345D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E9CD4883220A64F9007E411E /* AlamofireController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireController.swift; sourceTree = "<group>"; };
+		E9D2BC4B220A5FF7004F7688 /* OpenTokController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokController.swift; sourceTree = "<group>"; };
+		E9D2BC4D220A6032004F7688 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		E9D2BC4F220A613A004F7688 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		E9D2BC52220A61A5004F7688 /* OpenTokDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTokDelegate.swift; sourceTree = "<group>"; };
+		E9D2BC54220A61C4004F7688 /* ChannelViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E9E88CAA2211E251007AEC05 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B743CC2207935800ED345D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C34D21FA1EDD0373E861F1 /* Pods_TempoHeadset.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B743E32207935900ED345D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23081B1E405A8D42E40D2A0B /* Pods_TempoHeadsetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B743EE2207935900ED345D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454F7BB00B798B7159D73F32 /* Pods_TempoHeadsetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED58327E6FE84C2E23D99AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1997573A2CB882DD51B71482 /* Pods-TempoHeadset.debug.xcconfig */,
+				8975453349690FCA368BC505 /* Pods-TempoHeadset.release.xcconfig */,
+				D6B38F3CF4A8336FC5855F6B /* Pods-TempoHeadsetTests.debug.xcconfig */,
+				A167B2D3458A30ED78080F85 /* Pods-TempoHeadsetTests.release.xcconfig */,
+				84B0B1F46DD19AF0CED03EF8 /* Pods-TempoHeadsetUITests.debug.xcconfig */,
+				29B7EE5563554A97E70333E6 /* Pods-TempoHeadsetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B02CCA08A68F062A2DD2013D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2956B1E1F955D603AE983922 /* Pods_TempoHeadset.framework */,
+				0AEEDB4F29B81C9E287976DF /* Pods_TempoHeadsetTests.framework */,
+				3296BC8AC02269C8D45541A7 /* Pods_TempoHeadsetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B743C62207935800ED345D = {
+			isa = PBXGroup;
+			children = (
+				E9B743D12207935800ED345D /* TempoHeadset */,
+				E9B743E92207935900ED345D /* TempoHeadsetTests */,
+				E9B743F42207935900ED345D /* TempoHeadsetUITests */,
+				E9B743D02207935800ED345D /* Products */,
+				5ED58327E6FE84C2E23D99AD /* Pods */,
+				B02CCA08A68F062A2DD2013D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B743D02207935800ED345D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B743CF2207935800ED345D /* TempoHeadset.app */,
+				E9B743E62207935900ED345D /* TempoHeadsetTests.xctest */,
+				E9B743F12207935900ED345D /* TempoHeadsetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B743D12207935800ED345D /* TempoHeadset */ = {
+			isa = PBXGroup;
+			children = (
+				E9E88CAA2211E251007AEC05 /* intro.mp3 */,
+				E9D2BC51220A6162004F7688 /* Delegates */,
+				E9D2BC4A220A5FDA004F7688 /* LogicControllers */,
+				E9B744032207938A00ED345D /* ViewControllers */,
+				E9B743D22207935800ED345D /* AppDelegate.swift */,
+				E9B743D62207935800ED345D /* Main.storyboard */,
+				E9B743DC2207935900ED345D /* Assets.xcassets */,
+				E9B743DE2207935900ED345D /* LaunchScreen.storyboard */,
+				E9B743E12207935900ED345D /* Info.plist */,
+				E9B743D92207935800ED345D /* TempoHeadset.xcdatamodeld */,
+			);
+			path = TempoHeadset;
+			sourceTree = "<group>";
+		};
+		E9B743E92207935900ED345D /* TempoHeadsetTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B743EA2207935900ED345D /* TempoHeadsetTests.swift */,
+				E9B743EC2207935900ED345D /* Info.plist */,
+			);
+			path = TempoHeadsetTests;
+			sourceTree = "<group>";
+		};
+		E9B743F42207935900ED345D /* TempoHeadsetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B743F52207935900ED345D /* TempoHeadsetUITests.swift */,
+				E9B743F72207935900ED345D /* Info.plist */,
+			);
+			path = TempoHeadsetUITests;
+			sourceTree = "<group>";
+		};
+		E9B744032207938A00ED345D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9B74404220793A300ED345D /* MainViewController.swift */,
+				E9B744062207954200ED345D /* ChannelViewController.swift */,
+				E9B7440A2207961A00ED345D /* LoginViewController.swift */,
+				E9D2BC4D220A6032004F7688 /* UsersTableViewController.swift */,
+				E9D2BC4F220A613A004F7688 /* SpinnerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9D2BC4A220A5FDA004F7688 /* LogicControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2BC4B220A5FF7004F7688 /* OpenTokController.swift */,
+				E9CD4883220A64F9007E411E /* AlamofireController.swift */,
+			);
+			path = LogicControllers;
+			sourceTree = "<group>";
+		};
+		E9D2BC51220A6162004F7688 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2BC52220A61A5004F7688 /* OpenTokDelegate.swift */,
+				E9D2BC54220A61C4004F7688 /* ChannelViewControllerDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B743CE2207935800ED345D /* TempoHeadset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B743FA2207935900ED345D /* Build configuration list for PBXNativeTarget "TempoHeadset" */;
+			buildPhases = (
+				CFE811BB9493E903986993A3 /* [CP] Check Pods Manifest.lock */,
+				E9B743CB2207935800ED345D /* Sources */,
+				E9B743CC2207935800ED345D /* Frameworks */,
+				E9B743CD2207935800ED345D /* Resources */,
+				1ECEA6F9864F14105D7ECFF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempoHeadset;
+			productName = TempoHeadset;
+			productReference = E9B743CF2207935800ED345D /* TempoHeadset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B743E52207935900ED345D /* TempoHeadsetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B743FD2207935900ED345D /* Build configuration list for PBXNativeTarget "TempoHeadsetTests" */;
+			buildPhases = (
+				B3A01AFAAA2AF9CFF74A6D88 /* [CP] Check Pods Manifest.lock */,
+				E9B743E22207935900ED345D /* Sources */,
+				E9B743E32207935900ED345D /* Frameworks */,
+				E9B743E42207935900ED345D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B743E82207935900ED345D /* PBXTargetDependency */,
+			);
+			name = TempoHeadsetTests;
+			productName = TempoHeadsetTests;
+			productReference = E9B743E62207935900ED345D /* TempoHeadsetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9B743F02207935900ED345D /* TempoHeadsetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B744002207935900ED345D /* Build configuration list for PBXNativeTarget "TempoHeadsetUITests" */;
+			buildPhases = (
+				2EB47767BB151FF81763F153 /* [CP] Check Pods Manifest.lock */,
+				E9B743ED2207935900ED345D /* Sources */,
+				E9B743EE2207935900ED345D /* Frameworks */,
+				E9B743EF2207935900ED345D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B743F32207935900ED345D /* PBXTargetDependency */,
+			);
+			name = TempoHeadsetUITests;
+			productName = TempoHeadsetUITests;
+			productReference = E9B743F12207935900ED345D /* TempoHeadsetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B743C72207935800ED345D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Soltis, Matthew";
+				TargetAttributes = {
+					E9B743CE2207935800ED345D = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					E9B743E52207935900ED345D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E9B743CE2207935800ED345D;
+					};
+					E9B743F02207935900ED345D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E9B743CE2207935800ED345D;
+					};
+				};
+			};
+			buildConfigurationList = E9B743CA2207935800ED345D /* Build configuration list for PBXProject "TempoHeadset" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9B743C62207935800ED345D;
+			productRefGroup = E9B743D02207935800ED345D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B743CE2207935800ED345D /* TempoHeadset */,
+				E9B743E52207935900ED345D /* TempoHeadsetTests */,
+				E9B743F02207935900ED345D /* TempoHeadsetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B743CD2207935800ED345D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B743E02207935900ED345D /* LaunchScreen.storyboard in Resources */,
+				E9B743DD2207935900ED345D /* Assets.xcassets in Resources */,
+				E9B743D82207935800ED345D /* Main.storyboard in Resources */,
+				E9E88CAB2211E252007AEC05 /* intro.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B743E42207935900ED345D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B743EF2207935900ED345D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ECEA6F9864F14105D7ECFF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempoHeadset/Pods-TempoHeadset-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB47767BB151FF81763F153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempoHeadsetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A01AFAAA2AF9CFF74A6D88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempoHeadsetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE811BB9493E903986993A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempoHeadset-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B743CB2207935800ED345D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B7440B2207961A00ED345D /* LoginViewController.swift in Sources */,
+				E9D2BC55220A61C4004F7688 /* ChannelViewControllerDelegate.swift in Sources */,
+				E9D2BC4C220A5FF7004F7688 /* OpenTokController.swift in Sources */,
+				E9D2BC53220A61A5004F7688 /* OpenTokDelegate.swift in Sources */,
+				E9D2BC4E220A6032004F7688 /* UsersTableViewController.swift in Sources */,
+				E9B74405220793A300ED345D /* MainViewController.swift in Sources */,
+				E9D2BC50220A613A004F7688 /* SpinnerViewController.swift in Sources */,
+				E9B743D32207935800ED345D /* AppDelegate.swift in Sources */,
+				E9CD4884220A64F9007E411E /* AlamofireController.swift in Sources */,
+				E9B744072207954200ED345D /* ChannelViewController.swift in Sources */,
+				E9B743DB2207935800ED345D /* TempoHeadset.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B743E22207935900ED345D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B743EB2207935900ED345D /* TempoHeadsetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B743ED2207935900ED345D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B743F62207935900ED345D /* TempoHeadsetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B743E82207935900ED345D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B743CE2207935800ED345D /* TempoHeadset */;
+			targetProxy = E9B743E72207935900ED345D /* PBXContainerItemProxy */;
+		};
+		E9B743F32207935900ED345D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B743CE2207935800ED345D /* TempoHeadset */;
+			targetProxy = E9B743F22207935900ED345D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B743D62207935800ED345D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B743D72207935800ED345D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B743DE2207935900ED345D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B743DF2207935900ED345D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B743F82207935900ED345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9B743F92207935900ED345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B743FB2207935900ED345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1997573A2CB882DD51B71482 /* Pods-TempoHeadset.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M33NLBMMY;
+				INFOPLIST_FILE = TempoHeadset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9B743FC2207935900ED345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8975453349690FCA368BC505 /* Pods-TempoHeadset.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M33NLBMMY;
+				INFOPLIST_FILE = TempoHeadset/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9B743FE2207935900ED345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B38F3CF4A8336FC5855F6B /* Pods-TempoHeadsetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M33NLBMMY;
+				INFOPLIST_FILE = TempoHeadsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoHeadset.app/TempoHeadset";
+			};
+			name = Debug;
+		};
+		E9B743FF2207935900ED345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A167B2D3458A30ED78080F85 /* Pods-TempoHeadsetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M33NLBMMY;
+				INFOPLIST_FILE = TempoHeadsetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadsetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoHeadset.app/TempoHeadset";
+			};
+			name = Release;
+		};
+		E9B744012207935900ED345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B0B1F46DD19AF0CED03EF8 /* Pods-TempoHeadsetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M33NLBMMY;
+				INFOPLIST_FILE = TempoHeadsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempoHeadset;
+			};
+			name = Debug;
+		};
+		E9B744022207935900ED345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B7EE5563554A97E70333E6 /* Pods-TempoHeadsetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M33NLBMMY;
+				INFOPLIST_FILE = TempoHeadsetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bux225.TempoHeadsetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TempoHeadset;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B743CA2207935800ED345D /* Build configuration list for PBXProject "TempoHeadset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B743F82207935900ED345D /* Debug */,
+				E9B743F92207935900ED345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B743FA2207935900ED345D /* Build configuration list for PBXNativeTarget "TempoHeadset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B743FB2207935900ED345D /* Debug */,
+				E9B743FC2207935900ED345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B743FD2207935900ED345D /* Build configuration list for PBXNativeTarget "TempoHeadsetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B743FE2207935900ED345D /* Debug */,
+				E9B743FF2207935900ED345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B744002207935900ED345D /* Build configuration list for PBXNativeTarget "TempoHeadsetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B744012207935900ED345D /* Debug */,
+				E9B744022207935900ED345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9B743D92207935800ED345D /* TempoHeadset.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9B743DA2207935800ED345D /* TempoHeadset.xcdatamodel */,
+			);
+			currentVersion = E9B743DA2207935800ED345D /* TempoHeadset.xcdatamodel */;
+			path = TempoHeadset.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E9B743C72207935800ED345D /* Project object */;
+}
